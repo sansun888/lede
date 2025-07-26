@@ -53,7 +53,7 @@ sed -i '/set wireless.radio${devidx}.disabled/d' /lib/wifi/mac80211.sh
 sed -i '/DISTRIB_REVISION/d' /etc/openwrt_release
 echo "DISTRIB_REVISION='R25.7.7'" >> /etc/openwrt_release
 sed -i '/DISTRIB_DESCRIPTION/d' /etc/openwrt_release
-echo "DISTRIB_DESCRIPTION='LEDE '" >> /etc/openwrt_release
+echo "DISTRIB_DESCRIPTION='Ls '" >> /etc/openwrt_release
 
 sed -i '/log-facility/d' /etc/dnsmasq.conf
 echo "log-facility=/dev/null" >> /etc/dnsmasq.conf
